@@ -37,7 +37,12 @@ export function fallIn(): AnimationTriggerMetadata {
         ])
     ]);
 }
-
+/**
+ * Animates element to fade in on enter and fade out on leave
+ * 
+ * @export
+ * @returns {AnimationTriggerMetadata} 
+ */
 export function fadeInOut(): AnimationTriggerMetadata {
     return trigger('fadeInOut', [
         transition(':enter', [
